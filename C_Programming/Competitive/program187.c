@@ -1,3 +1,9 @@
+/*
+    Input : Demo.txt
+    Output: Number of capital characters are : 23 
+
+*/
+
 #include<stdio.h>
 #include<string.h>
 #include<io.h>

@@ -1,3 +1,9 @@
+/*
+    Input : Demo.txt
+    Output: Number of small characters are 3
+
+*/
+
 #include<stdio.h>
 #include<fcntl.h>
 #include<string.h>

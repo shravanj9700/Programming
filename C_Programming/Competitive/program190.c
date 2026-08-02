@@ -1,25 +1,27 @@
 /*
     Input : Demo.txt    --> 12
     Output: Display first 12 characters from Demo.txt
+            ABCDEFGHIJKL
 
 */
 
 #include<stdio.h>
 #include<io.h>
 #include<fcntl.h>
+#include<unistd.h>
 
 #define BUFFER_SIZE 1024
 
 void DisplayN(char FileName[], int iSize)
 {
     char Buffer[BUFFER_SIZE] = {'\0'};
-    int fd = 0, i = 0, iRet = 0, iCount = 0;
+    int fd = 0, i = 0, iRet = 0;
 
-    fd = open("Demo.txt",O_RDONLY);
+    fd = open(FileName,O_RDONLY);
     
     if(fd == -1)
     {
-        printf("Unble to openthe file\n");
+        printf("Unble to open the file\n");
         return;
     }
 
