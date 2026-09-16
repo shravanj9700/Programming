@@ -1,0 +1,1 @@
+A growing collection of my daily programming practice, showcasing my journey of building strong programming fundamentals, sharpening logical thinking, and improving problem-solving skills through consistent hands-on coding and continuous learning.
